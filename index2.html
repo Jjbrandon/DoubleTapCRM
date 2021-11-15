@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles1.css">
+    <link rel="stylesheet" href="header.css">
     <script src="https://kit.fontawesome.com/482c2267e9.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,12 +15,51 @@
         rel="stylesheet">
 </head>
 <body>
+    <header>
+        <div class="container2">
+        <img src="Logo.png" width="140" height="40" alt="logo">
+            <nav>
+                <ul>
+                    <li><a href="Landing.html">Home</a></li>
+                    <li><a href="">Features</a></li>
+                    <li><a href="">Pricing</a></li>
+                    <li><a href="">How it Works</a></li>
+                    <li><a href="">Support</a></li>
+                    <li><button onclick="document.location='Signin2.html'" id="button1">Sign In</button></li>
+                    <li><button onclick="document.location='SignUp.html'" id="button2">Try It Free</button></li>
+                    
+                </ul>
+            </nav>
+            </div>
+    </header>
+    <div class="container2">
+        <div class="row">
+          <div id="headertxt" class="col-sm">
+                <h1><br><b>Focus on</b><br><b>Your Business</b></h1>
+                <h5 style="color:black; text-align: left; font-size: 20px; margin: 0;"><b>Let Us Handle Everything Else</b></h4>
+                <p id="substxt">Subscription Billing, powered with revenue retention tools and a <br>
+            seamless customer experience - without the technical hurdles</p>
+                <div class="headbuttons">
+                <button onclick="document.location='SignUp.html'" id="button3">Sign Up Free<i class="fas fa-angle-double-right" style="margin-left: 25px;"></i></button>
+                <button id="button4"><i class="fas fa-comment-dots" style="margin-right: 8px;"></i>Chat With Us</button>
+                </div>
+                <p class="taptext">Already using <b> Double</b>Tap? <a href="Signin2.html">Sign In</a></p>
+                <p id="promotext">Free 14 day trial <i class="fas fa-circle" style="color: blue; padding-left: 6px; padding-right: 6px;"></i> Manage Customers in Minutes <i class="fas fa-circle" style="color: blue; padding-left: 6px; padding-right: 6px;"></i> Cancel at Anytime</p>
+          
+            </div>
+          <div class="col-sm">
+              <img class="headerpic" src="Header-Side-1@2x.png">
+          </div>
+        </div>
+    </div>
+    <div>
+        <hr id="hrlol">
+    </div>
     <div class="container">
         <div class="center">
-            <div class="header"></div>
-            <div class="body">
-                <h4><b>How It Works</b></h4>
-                <p><b>Lorem Ispum is simply dummy text</br>
+            <div class="body" style="padding-bottom: 31px;">
+                <h3><b>How It Works</b></h4>
+                <p style="font-size: 15px;"><b>Lorem Ispum is simply dummy text</br>
                     of printing and typesetting industry. Lorem Ispum</br>
                     has been the industry's standard dummy text</br>
                     ever since the 1500's, when an unknown printer</br>
@@ -30,14 +70,14 @@
                     <img src=images/collect_info.png alt="collect">
                 </div>
                 <div class="body2">
-                    <h5></br></br>Collect Useful Info</br></br></br></h5>
-                    <p id="one"><b>Deliver the world of payment options and seamless checkout</br>
+                    <h5 style="font-size: 20px; padding-right: 50px;"></br>Collect Useful Info</br></br></h5>
+                    <p style="margin-bottom: 30px;" id="one"><b>Deliver the world of payment options and seamless checkout</br>
                         experiences, making it easy for your customers to pay you for your</br>
                         products and services.</b></p>
                 </div>
             </div>
             <div class="body3">
-                <p><b>Lorem Ispum is simply dummy text</br>
+                <p style="padding-bottom: 40px; font-size: 15px;"><b>Lorem Ispum is simply dummy text</br>
                     of printing and typesetting industry. Lorem Ispum</br>
                     has been the industry's standard dummy text</br>
                     ever since the 1500's, when an unknown printer</br>
@@ -62,17 +102,17 @@
                     <p style="font-size:xx-large; color: white"><b>Try Double Tap Today!</b></p>
                     <p id="one"><b>Let's Get Started</b></p>
                 </div>
-                <div class="get">
-                    <button class="button"><b>Get Started</b><a class="arrow"></a><a class="arrow2"></a></button>
-                </div>
-                <div class="empty"></div>
-                <div class="chat">
-                    <button class="button2"><i class="fas fa-comment-dots"></i>Chat With Us</button>
-                </div>
-                <div class="free">
-                    <img src="images/free.png" alt="14 days">
-                    <img src="images/ellipse.png" alt="ellipse">
-                </div>
+                    <div class="get">
+                        <button class="button"><b>Get Started</b><a class="arrow"></a><a class="arrow2"></a></button>
+                    </div>
+                
+                    <div class="chat">
+                        <button class="button2"><i style="margin-right: 10px;" class="fas fa-comment-dots"></i>Chat With Us</button>
+                    </div>
+                    <div class="free">
+                        <img src="images/free.png" alt="14 days">
+                        <img src="images/ellipse.png" alt="ellipse">
+                    </div>
                 <div class="manage">
                     <img src="images/manage2.png" alt="customers">
                 </div>

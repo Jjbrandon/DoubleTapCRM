@@ -1,0 +1,308 @@
+body{
+    font-family: 'Raleway', sans-serif;
+}
+.container {
+    width: 100%;
+}
+    
+    header{background-color:rgb(255, 255, 255);
+        margin-left: 50px;
+    }
+    
+    .logo{float: left;
+         margin-top: 20px;
+         display: flex;
+    }
+    
+    header::after{
+        content: '';
+    display: table;
+    clear:both;}
+    
+    nav{float: right;}
+    
+    nav ul {margin: 0;
+    padding-right: 80px; 
+    list-style: none;}
+    
+    nav li {display: inline-block;
+          padding-top: 10px;
+        position: relative;
+    }
+    
+    nav a{
+        text-decoration: none;
+    font-size: 12px; 
+    color:rgb(0, 0, 0); 
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     font-weight: 500;
+    margin-right: 60px;}
+    
+    nav a:hover {color:rgb(80, 80, 245);}
+    
+    nav a::before{ content: "";
+    display: block;
+    height: 5px;
+    width: 100%;
+    background-color:rgb(54, 25, 214);
+    position:absolute; top: 0; width: 00%;
+    transition: all ease-in-out 250ms;}
+    
+    nav a:hover::before{
+        width: calc(100% - 60px);
+    }
+
+    button{
+        font-size: 12px;
+        font-weight: 700;
+        width:72px;
+        border-radius: 4px;
+        padding-bottom: 1px;
+        margin-left: 90px;
+        transition: ease-in-out 0.2s;
+    }
+
+    button:hover{
+        transform: translateY(2px);
+    }
+
+    #button1{
+        background-color: white;
+        color:rgb(54, 25, 214);
+        border-color:rgb(54, 25, 214);
+    }
+
+    #button2{
+        margin-left: 20px;
+        background-color:rgb(54, 25, 214);
+        border: 1px solid rgb(54, 25, 214);
+        color: white;
+        border-color:rgb(54, 25, 214);
+    }
+
+    .row{
+        margin-left: 30px;
+        padding-top: 10px;
+    }
+
+    #button3{
+        margin:0;
+        width: 130px;
+        height: 37px;
+        background-color: rgb(54, 25, 214);
+        border: 1px solid rgb(54, 25, 214);
+        color: white;
+
+    }
+
+    #button4{
+        margin-left: 5px;
+        width:130px;
+        height: 37px;
+        background-color: white;
+        border:1px solid rgb(54, 25, 214);
+        color: rgb(54, 25, 214);
+        font-weight: 700;
+    }
+
+    .taptext{
+        font-size: 14px;
+        padding-top: 11px;
+    }
+    .taptext > a{
+        text-decoration: none;
+    }
+
+    #promotext{
+        font-size: 10px;
+        font-weight: 700;
+
+    }
+
+    .headerpic{
+        height:400px;
+        margin-top: 20px;
+        margin-left: 15px;
+    }
+
+    #hrlol{
+        width: 50%;
+        margin-left: 25%
+    }
+
+    #substxt{
+        font-weight: 500;
+        color:gray;
+        font-size: 15px;
+
+    }
+
+
+
+
+
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+.card-text{
+    font-size: 11px;
+    font-weight:500;
+    
+}
+
+#topp{
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.card{
+    height: 93px;
+    width: 85px;
+    border-radius: 5px;
+    background-color: rgb(250, 250, 246);
+    transition: ease-in-out 0.3s;
+}
+
+.card:hover{
+    transform: translatey(3px);
+    color: white;
+    box-shadow: 2px 2px black;
+    background-color: rgb(54, 25, 214) ;
+}
+
+.col-3{
+    
+    border-top-left-radius: 11px;
+    border-bottom-left-radius: 11px;
+    border: 2px solid rgb(231, 230, 230);
+    width: 290px;
+}
+
+.col-5{
+    color: white;
+    padding-top: 70px;
+    padding-left: 37px;
+    border-top-right-radius: 11px;
+    border-bottom-right-radius: 11px;
+    border: 1px solid rgb(54, 25, 214);
+    width: 470px
+}
+
+.smallesttxt{
+    font-size: 10px;
+}
+
+#h55{
+    font-weight: 650
+}
+
+.bottom-cards{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    text-align: center;
+    gap: 115px;
+    margin-right: 30px;
+}
+
+.button2{
+    background-color: white;
+    color:black;
+    border: 1px solid black;
+    width: 130px;
+    height: 25px;
+    border-radius: 3px;
+    font-size: 10px;
+    font-weight: 700;
+    transition: ease-in-out 0.2s;
+    margin-right: 80px;
+}
+
+.button2:hover{
+transform: translateX(1px);
+background-color: rgb(0, 0, 0);
+color:white;
+
+
+}
+
+.card-text2{
+    font-size: 10px;
+    font-weight: 700;
+}
+
+.card-img-top{
+    position: relative;
+    height: 100px;
+    width: 100px;
+}
+
+.cardlayer{
+    position: relative;
+}
+
+#cardno1{
+    background-color: rgb(54, 25, 214);
+    color:rgb(255, 255, 255)
+}
+
+#cardno1:hover{
+    background-color:  rgb(250, 249, 249);
+    color:rgb(0, 0, 0);
+
+}
+
+.img-parent{
+    position: relative;
+    margin-bottom: 30px;
+}    
+.card-img-ontop{
+    position: relative;
+}
+
+.circ-img-top{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+}
+
+.card-body2{
+    margin-left: 11px;
+
+}
+
+#gridbutton{
+    background-color:rgb(54, 25, 214);
+    color: rgb(255, 255, 255);
+    border: 1px solid white;
+  border-radius: 3px;
+  width: 167px;
+  height: 28px;
+  
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: all .3s ease-out;
+
+}
+
+#gridbutton:hover{
+    background-position: left bottom;
+    color:rgb(255, 255, 255);
+    background: linear-gradient(to right, black 0%, rgb(54, 25, 214) 100%)
+}
+#gridbutton:hover:after{
+    transform: translate3d(0,0,0);
+    transition: all .5s;
+    color:white;
+    background-color: black;
+}
+
+.col-container{
+    margin-right: 70px;
+    margin-left: 0;
+}
+
+#header-row{
+    padding-left: 100px;
+}

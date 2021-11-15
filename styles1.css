@@ -17,7 +17,7 @@
   .center {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 0.4fr 0.2fr 0.4fr 1fr 1fr;
+    grid-template-rows: 0px;
     gap: 0px 0px;
     grid-auto-flow: row;
     grid-template-areas:
@@ -40,7 +40,7 @@
   .pb {
     display: grid;
     grid-template-columns: 3fr 0.5fr 6fr 2fr;
-    grid-template-rows: 3fr 3fr 3fr 3fr;
+    grid-template-rows: 3fr 3fr 3fr;
     gap: 0px 0px;
     padding-left: 200px;
     grid-auto-flow: row;
@@ -96,7 +96,7 @@
   .pb2 {
     display: grid;
     grid-template-columns: 3fr 0.5fr 1fr 5fr;
-    grid-template-rows: 3fr 3fr 3fr 3fr;
+    grid-template-rows: 3fr 3fr 3fr;
     gap: 0px 0px;
     padding-left: 200px;
     margin-bottom: -400px;
@@ -251,8 +251,9 @@
     height: 75%;
   }
 
-  i {
-    margin-right: 10px;
+  .headbuttons{
+    display: flex;
+    gap: 10px
   }
   
   
