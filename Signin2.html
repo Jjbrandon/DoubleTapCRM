@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="Enter your description here" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="signin2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+    <title>SignIn</title>
+</head>
+
+<body style="font-family: 'Raleway', sans-serif;">
+    <div class="container">
+        <div class="row">
+            <div class="col left">
+
+                <div class="white center margin-top">
+                    <p style="padding-right: 170px;"><b>Don't Have an Account Yet?</b></p>
+                    <p style="padding-right:170px;"><b>What are you waiting for? Let's Fix that now!</b></p>
+                    <div style="padding-right: 170px;">
+                        <button onclick="document.location='http://127.0.0.1:5500/DoubleTapCRM/SignUp.html'" type="button" class="btn btn-outline-light rounded-pill btn-size">
+                            Sign Up
+                        </button>
+                        <br>
+                    </div>
+                    <img src="signin.png" class="signinimg">
+                </div>
+            </div>
+            <div class="col">
+                <div class="center">
+                    <form class="form-signin">
+                        <h1 style=" padding-right:100px; padding-bottom:25px"
+                            class="h3 mb-3 font-weight-normal margin-top xxlarge"><b>Sign In</b></h1>
+                        <div class="forms">
+                            <div>
+                                <label for="inputUsername" class="sr-only">Username</label>
+                                <input type="text" id="inputUsername"
+                                    class="form-control form-margin rounded-pill signin-form-size" required=""
+                                    autofocus="">
+                            </div>
+                            <div>
+                                <i style="padding-top:25px;" class="far fa-user i2"></i>
+                            </div>
+                        </div>
+                        <div class="forms">
+                            <div>
+                                <label for="inputEmail" class="sr-only">Email address</label>
+                                <input type="email" id="inputPassword"
+                                    class="form-control form-margin rounded-pill signin-form-size" required="">
+                            </div>
+                            <div>
+                                <i style="padding-top:25px;" class="far fa-envelope i2"></i>
+                            </div>
+                        </div>
+                        <div class="forms">
+                            <div>
+                                <label for="inputPassword" class="sr-only">Password</label>
+                                <input type="password" id="inputPassword"
+                                    class="form-control form-margin rounded-pill signin-form-size" required="">
+                            </div>
+                            <div>
+                                <i style="padding-top:25px;" class="fas fa-lock i2"></i>
+                            </div>
+                        </div>
+                        <div style="margin-top:20px; margin-bottom:20px">
+                            <button class="btn btn-primary btn-block rounded-pill btn-size" type="submit">Sign
+                                in</button>
+                        </div>
+                    </form>
+                    <p style="font-size: x-small;"><b>Or Sign in with social platforms</b></p>
+                    <div><button style="margin:12px" type="button"
+                            class="btn btn-outline-secondary btn-circle btn-content icon-size-xlarge"><i
+                                class="fab fa-facebook-f"></i>
+                        </button>
+                        <button style="margin:12px" type="button"
+                            class="btn btn-outline-secondary btn-circle btn-content icon-size-xlarge"><i
+                                class="fab fa-twitter"></i>
+                        </button>
+                        <button style="margin:12px" type="button"
+                            class="btn btn-outline-secondary btn-circle btn-content icon-size-xlarge"><i
+                                class="fab fa-google"></i>
+                        </button>
+                        <button style="margin:12px" type="button"
+                            class="btn btn-outline-secondary btn-circle btn-content icon-size-xlarge"><i
+                                class="fab fa-linkedin-in "></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+</body>
+
+</html>
