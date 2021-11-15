@@ -306,3 +306,100 @@ color:white;
 #header-row{
     padding-left: 100px;
 }
+
+.get { 
+    grid-area: get;
+    text-align: center;
+    padding-left: 350px; 
+  }
+
+  .chat { 
+    grid-area: chat;
+    text-align: center;
+    padding-right: 350px; 
+  }
+
+  .free { 
+    grid-area: free;
+    display: flex;
+    padding-left: 490px;
+    padding-top: 19.5px;
+    height: 40px;
+    width: 20%; 
+  }
+
+  .free img {
+    margin: 5px;
+    height: 72%;
+  }
+
+  
+  .manage { 
+    grid-area: manage;
+    display: flex;
+    padding-top: 25px;
+    height: 47px;
+    width: 20%;  
+    padding-bottom: 2px;
+  }
+
+  .manage img {
+    height: 72%;
+  }
+
+  .cancel { 
+    grid-area: cancel;
+    display: flex;
+    padding: 16px;
+    height: 50px;
+    width: 20%;  
+  }
+
+  .cancel img {
+      margin-top: 10px;
+    margin-right: 10px;
+    height: 75%;
+  }
+
+  .footer {
+    display: grid; 
+    grid-template-columns: 2fr 0.5fr 2fr; 
+    grid-template-rows: 1fr 1fr 1fr; 
+    gap: 10px 5px;
+    height: 350px;
+    margin-top: 400px;
+    grid-template-areas: 
+      "body5 body5 body5"
+      "get empty chat"
+      "free manage cancel";
+    background-color: blue;
+    grid-area: footer; 
+  }
+
+  .button {
+    background-color:greenyellow;
+    color: white;
+    border-radius: 5px;
+    height: 40px;
+    width: 150px;
+    text-align: center;
+  }
+
+  .button17 {
+    background-color:white;
+    color: blue;
+    border-radius: 5px;
+    height: 40px;
+    width: 150px;
+    text-align: center;
+  }
+
+
+.empty {
+  width: 1px;
+}
+
+.body5 { 
+  grid-area: body5;
+  text-align: center;
+} 
